@@ -17,4 +17,4 @@ jobs:
       - name: YAML Lint
         uses: ibiqlik/action-yamllint@v3.1.0
         with:
-          file_or_dir: "../../blue-green/values.yaml"
+          file_or_dir: "blue-green/values.yaml"
